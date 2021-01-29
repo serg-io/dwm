@@ -29,12 +29,14 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Arandr",   NULL,       NULL,       0,            1,           -1 }, // ARandR
 	{ "Galculator", NULL,     NULL,       0,            1,           -1 }, // Galculator
 	{ NULL, "crx_nckgahadagoaajjgafhacjanaoiihapd", NULL, 0, 1,      -1 }, // Google Hangouts
 	{ NULL,       NULL,     "NoiseTorch", 0,            1,           -1 }, // NoiseTorch
 	{ "Pavucontrol", NULL,    NULL,       0,            1,           -1 }, // Pavucontrol
 	{ "Peek",     NULL,       NULL,       0,            1,           -1 }, // Peek
 	{ "Piper",    NULL,       NULL,       0,            1,           -1 }, // Piper
+	{ "Xsane",    NULL,       NULL,       0,            1,           -1 }, // XSane
 };
 
 /* layout(s) */
